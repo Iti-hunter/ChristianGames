@@ -1,0 +1,44 @@
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style des exercices */
+.exercice {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(50% - 20px); /* 50% moins la marge pour 2 colonnes */
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.exercice h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style des images d'exercice */
+.exercice img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    text-align: center;
+    width: 100%; /* Pour s'assurer qu'il occupe toute la largeur disponible */
+}
